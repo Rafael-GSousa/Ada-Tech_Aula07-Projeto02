@@ -13,27 +13,242 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-container1">
-            <div class="logo">
-                <img src="./assets/img/logo-ifood.svg" alt="">
-            </div>
-            <div class="nav">
-                <nav>
-                    <ul>
-                        <li>teste</li>
-                        <li>teste</li>
-                        <li>teste</li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <div class="header-container2">
 
-        </div>
+    <header>
+        <img src="./assets/img/logo-ifood.svg" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#faleConosco">Fale Conosco</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#app">Baixe nosso App</a></li>
+            </ul>
+        </nav>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <main>
+        <section id="descricao">
+            <div class="titulo">
+                <h1>
+                    A maior plataforma de delivery do Brasil
+                </h1>
+                <p>
+                    Faça o seu pedido com alguns cliques e receba no conforto de onde estiver
+                </p>
+            </div>
+        </section>
+
+        <section id="cardapio">
+            <h2>
+                Cardápio
+            </h2>
+            <p>
+                Conheça nosso cardápio digital
+            </p>
+            <section id="bloco">
+                <h3>
+                    Orientais
+                </h3>
+                <section id="oriental">
+                    <article>
+                        <figure>
+                            <img src="/assets/img/shimeji-manteiga.png" alt="">
+                            <figcaption>
+                                Shimeji na Manteiga
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Cogumelo Branco com Shoyu e Cebolinha.
+                        </p>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="/assets/img/guioza.png" alt="">
+                            <figcaption>
+                                Guioza
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Enrolados de Legumes Fritos ou Assados.
+                        </p>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="/assets/img/rolinho.png" alt="">
+                            <figcaption>
+                                Rolinho Primavera
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Massa crocante recheada com legumes, frango com requeijão ou queijo.
+                        </p>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="/assets/img/hot-roll.png" alt="">
+                            <figcaption>
+                                Hot Roll
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Nori (Alga Japonesa), Shari (Arroz Para Sushi) Recheado com Salmão, Creem Cheese, Empanado e
+                            Frito.
+                        </p>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="/assets/img/temaky.png" alt="">
+                            <figcaption>
+                                Temaki
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Nori (Alga Japonesa), Shari (Arroz Para Sushi), Recheado com Salmão, Cream Cheese e
+                            Cebolinha.
+                        </p>
+                    </article>
+                </section>
+
+                <h3>
+                    Lanches
+                </h3>
+                <section id="lanches">
+                    <article>
+                        <figure>
+                            <img src="/assets/img/labrasa01.png" alt="">
+                            <figcaption>
+                                La Brasa Master
+                            </figcaption>
+                        </figure>
+                        <p>
+                            2 pães italianos, 5 burgers de fraldinha 200g, queijo mussarela, ovo, bacon, alface tomate e picles.
+                        </p>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="/assets/img/labrasa02.png" alt="">
+                            <figcaption>
+                                Veg Burger
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Pão Australiano, Maionese da Casa, Tomate, Alface, Queijo Gouda, Cebola Caramelizada, Hambúrguer Vegetariano 200g (grão de bico com especiarias).
+                        </p>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="/assets/img/labrasa03.png" alt="">
+                            <figcaption>
+                                Chicken Burger
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Pão gergelim, burger de frango 200gr, molho 4 queijos e bacon em tiras.
+                        </p>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="/assets/img/labrasa04.png" alt="">
+                            <figcaption>
+                                La Toscana
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Pão italiano, maionese gourmet, alface, muçarela, vinagrete, burger de Toscana de 200g.
+                        </p>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="/assets/img/labrasa05.png" alt="">
+                            <figcaption>
+                                Extra Cheese Burger
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Pão de brioche, maionese gourmet, 2 burgers de 100g, 4 fatias de Queijo Prato, 4 Fatias de Bacon.
+                        </p>
+                    </article>
+                </section>
+            </section>
+        </section>
+        <section id="form">
+            <h2 id="faleConosco">Fale Conosco</h2>
+            <form action="https://localhost:3000/agendamento" method="post" autocomplete="off">
+                <div class="dados">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite aqui seu nome">
+                </div>
+    
+                <div class="dados">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite aqui seu e-mail">
+                </div>
+    
+                <div id="textarea">
+                    <label for="msg">Perguntas | Sugestões | Comentários</label>
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
+                </div>
+    
+                <div id="btn">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+
+<!-- 
+    <section>
+        <div id="mapaSite">
+            <h3>Mapa do Site</h3>
+            <nav>
+                <ul>
+                    <li><a href="#quemSomos">Quem Somos</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#tabelas">Nossos Preços</a></li>
+                    <li><a href="#missao">Missão, Visão e Valores</a></li>
+                    <li><a href="#atendimento">Horários de Atendimento</a></li>
+                    <li><a href="#endereco">Nosso Endereço</a></li>
+                    <li><a href="#contatos">Telefones</a></li>
+                    <li><a href="#email">E-mail</a></li>
+                    <li><a href="#redesSociais">Redes Sociais</a></li>
+                    <li><a href="#form">Agendamento Online</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <footer>
+        <div id="dev">
+            <p>
+                Desenvolvido por <span id="autor">Rafael Galdino</span>
+                <a href="https://github.com/Rafael-GSousa" target="_blank">
+                    <img src="./assets/img/github-icon2.png" alt="/rafael-gsousa" class="social" title="GitHub">
+                </a>
+                <a href="https://facebook.com/rafaelgs1989" target="_blank">
+                    <img src="./assets/img/facebook2.png" alt="/rafaelgs1989" class="social" title="Facebook">
+                </a>
+                <a href="https://instagram.com/raphael_galdino" target="_blank">
+                    <img src="./assets/img/instagram2.png" alt="/raphael_galdino" class="social" title="Instagram">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="./assets/img/linkedin.png" alt="/raphael_galdino" class="social" title="LinkedIn">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="./assets/img/codepen2.png" alt="/raphael_galdino" class="social" title="Code Pen">
+                </a>
+            </p>
+        </div>
+
+        <div id="copy">
+            <p>
+                &copy; Todos os Direitos Reservados
+            </p>
+        </div> 
+    </footer> -->
 </body>
 
 </html>
