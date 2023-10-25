@@ -435,9 +435,23 @@ footer #mapaSite a:hover {
     box-shadow: 2px 2px 5px rgba(0, 0, 255, 0.425);
 }
 
+footer #redesSociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer #redesSociais h3, footer #redesSociais div {
+    width: 100%;
+}
+
+footer #redesSociais div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 footer #redesSociais div img {
     width: 32px;
-    margin-left: 10px;
     opacity: .5;
 }
 
@@ -448,20 +462,38 @@ footer #redesSociais div img:hover {
 
 footer #app {
     display: flex;
+    align-items: center;
     flex-direction: column;
     width: 300px;
     height: 60px;
     /* background-color: blue; */
 }
 
-footer #app div {
-    width: 100%;
-    height: 100%;
+footer #app #imagens {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
     /* background-color: aqua; */
 }
 
-footer #app div img {
-    width: 100%;
+footer #app #imagens .img {
+    width: 50%;
     height: 100%;
-    /* background-color: aqua; */
+    /* background-color: rgb(54, 65, 65); */
+}
+
+footer #app #imagens img {
+    width: 100%;
+    height: 52px;
+    opacity: .6;
+}
+
+footer #app #imagens a {
+    height: auto;
+    padding: 5px;
+}
+
+footer #app #imagens a:hover img {
+    opacity: 1;
+    cursor: pointer;
 }
