@@ -1,0 +1,138 @@
+@media screen and (max-width: 860px) {
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    header {
+        flex-direction: row-reverse;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    header > nav #menuBurger {
+        display: block;
+        width: 60px;
+        margin: auto 0px;
+    }
+
+    header > nav {
+        width: 80%;
+        padding-left: 0px;
+    }
+
+
+    header > nav > ul > li {
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+
+    header > nav #baixeApp {
+        display: none;
+    }
+
+    main > #descricao img{
+         display: none;
+    }
+
+    main > #descricao, main > #cardapio {
+        text-align: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    main > #cardapio > .paragrafo {
+        width: 100%;
+    }
+
+    main > #cardapio > #bloco article {
+        width: 50%;
+    }
+
+    #form {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    #form .dados > label {
+        width: 15%;
+    }
+
+    #form .dados > input {
+        width: 80%;
+    }
+
+    #form .dados > input, #form > #textearea > textarea {
+        font-size: 1.1rem;
+        text-align: left;
+        padding: 5px;
+    }
+
+    #form #btn {
+        display: flex;
+        gap: 10px;
+    }
+
+    footer #mapa {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+    footer #mapa > #mapaSite, footer #mapa > #redesSociais {
+        width: 50%;
+
+    }   
+
+    footer #mapa > #redesSociais {
+        text-align: center;
+    }
+    
+    footer #mapa > #app {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    footer #footerOne {
+        flex-direction: column-reverse;  
+        gap: 20px;      
+    }
+
+    footer #footerOne > #contato h3, footer #footerOne > #contato .cont {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer #footerOne > div {
+        width: 100%;      
+    }
+
+    footer #footerTwo #dev {
+        width: 100%;      
+        display: flex;
+        margin-top: 10px;
+    }
+
+    footer #footerTwo #dev > p, footer #footerTwo #dev > p #autor {
+        width: 100%;      
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    footer #footerTwo #dev > p img {
+        height: 15px;
+    }
+}

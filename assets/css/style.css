@@ -40,6 +40,10 @@ header > nav > ul {
     list-style-type: none;
 }
 
+header > nav #menuBurger {
+    display: none;
+}
+
 header > nav > ul > li {
     font-size: 1.3rem;
 }
