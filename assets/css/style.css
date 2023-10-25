@@ -73,8 +73,6 @@ main > #descricao {
     flex-direction: row-reverse;
     align-items: center;
     gap: 20px;
-    /* background-color: aqua; */
-    /* width: 90%; */
     margin: auto;
     padding: 40px 30px;
     height: 85vh;
@@ -105,13 +103,12 @@ main > #descricao > .titulo {
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    /* background-color: aqua; */
+
 }
 
 .titulo > p {
     width: 100%;
     text-align: center;
-    /* background-color: antiquewhite; */
 }
 
 main > #cardapio {
@@ -138,7 +135,6 @@ main > #cardapio > #bloco {
     justify-content: space-evenly;
     gap: 15px;
     width: 100%;
-    /* background-color: bisque; */ 
 }
 
 main > #cardapio > #bloco  article {
@@ -148,7 +144,6 @@ main > #cardapio > #bloco  article {
     flex-wrap: wrap;
     gap: 8px;
     text-align: center;
-    /* background-color: green; */
 }
 
 
@@ -178,7 +173,6 @@ main figcaption {
     text-align: center;
     width: 60%;
     margin: 30px auto;
-    /* background-color: aqua; */
 }
 
 #form h2 {
@@ -192,13 +186,10 @@ main figcaption {
     font-size: 1.3rem;
     text-align: left;
     margin: 5px 0px;
-    /* background-color: #585050; */
-    /* border: 1px solid black; */
     border-radius: 10px;
 }
 
 #form .dados:hover {
-    /* background-color: #ffffff; */
     color: rgb(204, 27, 27);
     font-weight: bold;
     transform: translate(-25px, 0px);
@@ -206,7 +197,6 @@ main figcaption {
 }
 
 #form #textarea:hover {
-    /* background-color: #ffffff; */
     color: rgb(204, 27, 27);
     font-weight: bold;
     transform: scale(1);
@@ -219,7 +209,6 @@ main figcaption {
     background-color: #d1cfcf;
     width: 300px;
     vertical-align: middle;
-    /* line-height: 1.3rem; */
     font-size: 1.3rem;
     text-align: center;
     border: none;
@@ -238,7 +227,6 @@ main figcaption {
 }
 
 #form #textarea label, #form textarea {
-    /* display: block; */
     text-align: center;
     width: 100%;
   
@@ -289,8 +277,6 @@ main figcaption {
 
 /* Formulário - fim */
 
-
-
 h1 {
     font-size: 2rem;
 }
@@ -335,7 +321,6 @@ footer #footerOne a:hover{
 
 footer #footerOne img:hover {
     box-shadow: 2px 2px 5px rgba(255, 0, 0, 0.432);
-    /* transform: translate(0px, -5px); */
     transition: .2s;
 
     animation-name: rodar;
@@ -373,7 +358,6 @@ footer #contato h3 {
 footer #contato p {
     width: 200px;
     text-align: left;
-    /* background-color: aqua; */
 }
 
 footer #contato .cont img {
@@ -414,7 +398,6 @@ footer #dev #autor {
 
 footer #mapa {
     display: flex;
-    /* background-color: aqua; */
     justify-content: space-around;
     padding: 20px 0px;
 }
@@ -470,20 +453,17 @@ footer #app {
     flex-direction: column;
     width: 300px;
     height: 60px;
-    /* background-color: blue; */
 }
 
 footer #app #imagens {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    /* background-color: aqua; */
 }
 
 footer #app #imagens .img {
     width: 50%;
     height: 100%;
-    /* background-color: rgb(54, 65, 65); */
 }
 
 footer #app #imagens img {
