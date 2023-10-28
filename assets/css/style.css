@@ -315,6 +315,11 @@ footer #footerOne{
     justify-content: space-evenly;
     padding: 30px 60px;
     height: auto;
+    gap: 13%;
+}
+
+footer #footerOne #linha {
+    display: none;   
 }
 
 footer #footerOne a:hover{
@@ -333,7 +338,7 @@ footer #footerOne img:hover {
 footer #copy {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 80%;
     gap: 15px;
 }
 
@@ -349,8 +354,8 @@ footer #copy img {
 footer #contato {
     display: flex;
     flex-direction: column;
-    align-items: end;
-    width: 50%;
+    align-items: flex-start;
+    width: 30%;
     gap: 5px;
 }
 
