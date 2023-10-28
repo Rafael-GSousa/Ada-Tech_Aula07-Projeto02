@@ -37,7 +37,7 @@
 
 
     header > nav > ul > li {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 5px;
     }
 
@@ -70,6 +70,11 @@
 
     #form .dados > label {
         width: 18%;
+        font-size: 1.1rem;
+    }
+
+    #form #textarea > label {
+        font-size: 1.1rem;
     }
 
     #form .dados > input {
@@ -140,5 +145,17 @@
 
     footer #footerTwo #dev > p img {
         height: 15px;
+    }
+
+    footer #navegue span, #redes span{
+        display: none;
+    }
+
+    footer #navegue::before {
+        content: 'Mapa do Site';
+    }
+
+    footer #redes::before {
+        content: 'Redes Sociais';
     }
 }
