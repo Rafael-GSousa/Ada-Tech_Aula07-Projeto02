@@ -78,10 +78,13 @@ main > #descricao {
     height: 85vh;
 }
 
+main #descricao #smile {
+    padding: 30px;
+}
+
 main > #descricao img{
     border-radius: 50%;
-    width: 300px;
-
+    width: 270px;
     animation-name: rodar;
     animation-duration: 1s;
 }
